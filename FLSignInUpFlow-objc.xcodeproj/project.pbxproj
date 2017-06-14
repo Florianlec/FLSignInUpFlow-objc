@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0463CE471EEFED1D00778628 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0463CE461EEFED1D00778628 /* main.m */; };
+		0463CE4A1EEFED1D00778628 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0463CE491EEFED1D00778628 /* AppDelegate.m */; };
+		0463CE501EEFED1D00778628 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0463CE4E1EEFED1D00778628 /* Main.storyboard */; };
+		0463CE521EEFED1D00778628 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0463CE511EEFED1D00778628 /* Assets.xcassets */; };
+		0463CE551EEFED1D00778628 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0463CE531EEFED1D00778628 /* LaunchScreen.storyboard */; };
+		0463CE631EEFEF4300778628 /* UIViewController+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0463CE621EEFEF4300778628 /* UIViewController+Helper.m */; };
+		0463CE661EEFEF5900778628 /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0463CE651EEFEF5900778628 /* NSString+Helper.m */; };
+		0463CE691EEFF2B100778628 /* FLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0463CE681EEFF2B100778628 /* FLTableViewController.m */; };
+		0463CE6C1EEFF84B00778628 /* FLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0463CE6B1EEFF84B00778628 /* FLLoginViewController.m */; };
+		0463CE721EEFF8FC00778628 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 0463CE711EEFF8FC00778628 /* Constants.m */; };
+		0463CE781EEFF9E400778628 /* FLSignInUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0463CE771EEFF9E400778628 /* FLSignInUpViewController.m */; };
+		0463CE7E1EF0245600778628 /* FLSignInUpAbstractCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0463CE7D1EF0245600778628 /* FLSignInUpAbstractCell.m */; };
+		0463CE811EF0248400778628 /* FLSignInUpStandardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0463CE801EF0248400778628 /* FLSignInUpStandardCell.m */; };
+		0463CE841EF0249700778628 /* FLSignInUpSocialCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0463CE831EF0249700778628 /* FLSignInUpSocialCell.m */; };
+		0463CE871EF024A700778628 /* FLSignInUpButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0463CE861EF024A700778628 /* FLSignInUpButtonCell.m */; };
+		0463CE8A1EF024BF00778628 /* FLSignInUpViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0463CE891EF024BF00778628 /* FLSignInUpViewModel.m */; };
+		0463CE8D1EF024CE00778628 /* FLSignInUpViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0463CE8C1EF024CE00778628 /* FLSignInUpViewItem.m */; };
+		0463CE901EF024EA00778628 /* FLSignInUpAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0463CE8F1EF024EA00778628 /* FLSignInUpAccessoryView.m */; };
+		0F76EE1802ED76897687F53E /* Pods_FLSignInUpFlow_objc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9AFCC8A9B9F2EEBA76AC88 /* Pods_FLSignInUpFlow_objc.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0463CE421EEFED1D00778628 /* FLSignInUpFlow-objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FLSignInUpFlow-objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0463CE461EEFED1D00778628 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0463CE481EEFED1D00778628 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0463CE491EEFED1D00778628 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0463CE4F1EEFED1D00778628 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0463CE511EEFED1D00778628 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0463CE541EEFED1D00778628 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0463CE561EEFED1D00778628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0463CE611EEFEF4300778628 /* UIViewController+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Helper.h"; sourceTree = "<group>"; };
+		0463CE621EEFEF4300778628 /* UIViewController+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Helper.m"; sourceTree = "<group>"; };
+		0463CE641EEFEF5900778628 /* NSString+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helper.h"; sourceTree = "<group>"; };
+		0463CE651EEFEF5900778628 /* NSString+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helper.m"; sourceTree = "<group>"; };
+		0463CE671EEFF2B100778628 /* FLTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLTableViewController.h; sourceTree = "<group>"; };
+		0463CE681EEFF2B100778628 /* FLTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLTableViewController.m; sourceTree = "<group>"; };
+		0463CE6A1EEFF84B00778628 /* FLLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLLoginViewController.h; sourceTree = "<group>"; };
+		0463CE6B1EEFF84B00778628 /* FLLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLLoginViewController.m; sourceTree = "<group>"; };
+		0463CE701EEFF8FC00778628 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		0463CE711EEFF8FC00778628 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		0463CE761EEFF9E400778628 /* FLSignInUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLSignInUpViewController.h; sourceTree = "<group>"; };
+		0463CE771EEFF9E400778628 /* FLSignInUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLSignInUpViewController.m; sourceTree = "<group>"; };
+		0463CE7C1EF0245600778628 /* FLSignInUpAbstractCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLSignInUpAbstractCell.h; sourceTree = "<group>"; };
+		0463CE7D1EF0245600778628 /* FLSignInUpAbstractCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLSignInUpAbstractCell.m; sourceTree = "<group>"; };
+		0463CE7F1EF0248400778628 /* FLSignInUpStandardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLSignInUpStandardCell.h; sourceTree = "<group>"; };
+		0463CE801EF0248400778628 /* FLSignInUpStandardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLSignInUpStandardCell.m; sourceTree = "<group>"; };
+		0463CE821EF0249700778628 /* FLSignInUpSocialCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLSignInUpSocialCell.h; sourceTree = "<group>"; };
+		0463CE831EF0249700778628 /* FLSignInUpSocialCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLSignInUpSocialCell.m; sourceTree = "<group>"; };
+		0463CE851EF024A700778628 /* FLSignInUpButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLSignInUpButtonCell.h; sourceTree = "<group>"; };
+		0463CE861EF024A700778628 /* FLSignInUpButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLSignInUpButtonCell.m; sourceTree = "<group>"; };
+		0463CE881EF024BF00778628 /* FLSignInUpViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLSignInUpViewModel.h; sourceTree = "<group>"; };
+		0463CE891EF024BF00778628 /* FLSignInUpViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLSignInUpViewModel.m; sourceTree = "<group>"; };
+		0463CE8B1EF024CE00778628 /* FLSignInUpViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLSignInUpViewItem.h; sourceTree = "<group>"; };
+		0463CE8C1EF024CE00778628 /* FLSignInUpViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLSignInUpViewItem.m; sourceTree = "<group>"; };
+		0463CE8E1EF024EA00778628 /* FLSignInUpAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLSignInUpAccessoryView.h; sourceTree = "<group>"; };
+		0463CE8F1EF024EA00778628 /* FLSignInUpAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLSignInUpAccessoryView.m; sourceTree = "<group>"; };
+		573555A25B262ACB8905F058 /* Pods-FLSignInUpFlow-objc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLSignInUpFlow-objc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FLSignInUpFlow-objc/Pods-FLSignInUpFlow-objc.debug.xcconfig"; sourceTree = "<group>"; };
+		74050B698C1F9B5CD31D5657 /* Pods-FLSignInUpFlow-objc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLSignInUpFlow-objc.release.xcconfig"; path = "Pods/Target Support Files/Pods-FLSignInUpFlow-objc/Pods-FLSignInUpFlow-objc.release.xcconfig"; sourceTree = "<group>"; };
+		AC9AFCC8A9B9F2EEBA76AC88 /* Pods_FLSignInUpFlow_objc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLSignInUpFlow_objc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0463CE3F1EEFED1D00778628 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F76EE1802ED76897687F53E /* Pods_FLSignInUpFlow_objc.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0463CE391EEFED1D00778628 = {
+			isa = PBXGroup;
+			children = (
+				0463CE441EEFED1D00778628 /* FLSignInUpFlow-objc */,
+				0463CE431EEFED1D00778628 /* Products */,
+				69F6D93AF598F5C321FE07AC /* Pods */,
+				83A8F9E249A3E3371C80FBA8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0463CE431EEFED1D00778628 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0463CE421EEFED1D00778628 /* FLSignInUpFlow-objc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0463CE441EEFED1D00778628 /* FLSignInUpFlow-objc */ = {
+			isa = PBXGroup;
+			children = (
+				0463CE481EEFED1D00778628 /* AppDelegate.h */,
+				0463CE491EEFED1D00778628 /* AppDelegate.m */,
+				0463CE601EEFEDE600778628 /* Helpers */,
+				0463CE5F1EEFEDDF00778628 /* Login */,
+				0463CE5E1EEFEDD400778628 /* SignInUp */,
+				0463CE5D1EEFEDCD00778628 /* Storyboard */,
+				0463CE451EEFED1D00778628 /* Supporting Files */,
+			);
+			path = "FLSignInUpFlow-objc";
+			sourceTree = "<group>";
+		};
+		0463CE451EEFED1D00778628 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0463CE511EEFED1D00778628 /* Assets.xcassets */,
+				0463CE531EEFED1D00778628 /* LaunchScreen.storyboard */,
+				0463CE561EEFED1D00778628 /* Info.plist */,
+				0463CE461EEFED1D00778628 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0463CE5D1EEFEDCD00778628 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0463CE4E1EEFED1D00778628 /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		0463CE5E1EEFEDD400778628 /* SignInUp */ = {
+			isa = PBXGroup;
+			children = (
+				0463CE751EEFF9CA00778628 /* Cells */,
+				0463CE741EEFF9C300778628 /* View Model */,
+				0463CE731EEFF9BF00778628 /* Views */,
+				0463CE761EEFF9E400778628 /* FLSignInUpViewController.h */,
+				0463CE771EEFF9E400778628 /* FLSignInUpViewController.m */,
+			);
+			name = SignInUp;
+			sourceTree = "<group>";
+		};
+		0463CE5F1EEFEDDF00778628 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0463CE6A1EEFF84B00778628 /* FLLoginViewController.h */,
+				0463CE6B1EEFF84B00778628 /* FLLoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		0463CE601EEFEDE600778628 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0463CE671EEFF2B100778628 /* FLTableViewController.h */,
+				0463CE681EEFF2B100778628 /* FLTableViewController.m */,
+				0463CE611EEFEF4300778628 /* UIViewController+Helper.h */,
+				0463CE621EEFEF4300778628 /* UIViewController+Helper.m */,
+				0463CE641EEFEF5900778628 /* NSString+Helper.h */,
+				0463CE651EEFEF5900778628 /* NSString+Helper.m */,
+				0463CE701EEFF8FC00778628 /* Constants.h */,
+				0463CE711EEFF8FC00778628 /* Constants.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		0463CE731EEFF9BF00778628 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0463CE8E1EF024EA00778628 /* FLSignInUpAccessoryView.h */,
+				0463CE8F1EF024EA00778628 /* FLSignInUpAccessoryView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0463CE741EEFF9C300778628 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				0463CE881EF024BF00778628 /* FLSignInUpViewModel.h */,
+				0463CE891EF024BF00778628 /* FLSignInUpViewModel.m */,
+				0463CE8B1EF024CE00778628 /* FLSignInUpViewItem.h */,
+				0463CE8C1EF024CE00778628 /* FLSignInUpViewItem.m */,
+			);
+			name = "View Model";
+			sourceTree = "<group>";
+		};
+		0463CE751EEFF9CA00778628 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0463CE7C1EF0245600778628 /* FLSignInUpAbstractCell.h */,
+				0463CE7D1EF0245600778628 /* FLSignInUpAbstractCell.m */,
+				0463CE7F1EF0248400778628 /* FLSignInUpStandardCell.h */,
+				0463CE801EF0248400778628 /* FLSignInUpStandardCell.m */,
+				0463CE821EF0249700778628 /* FLSignInUpSocialCell.h */,
+				0463CE831EF0249700778628 /* FLSignInUpSocialCell.m */,
+				0463CE851EF024A700778628 /* FLSignInUpButtonCell.h */,
+				0463CE861EF024A700778628 /* FLSignInUpButtonCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		69F6D93AF598F5C321FE07AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				573555A25B262ACB8905F058 /* Pods-FLSignInUpFlow-objc.debug.xcconfig */,
+				74050B698C1F9B5CD31D5657 /* Pods-FLSignInUpFlow-objc.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		83A8F9E249A3E3371C80FBA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC9AFCC8A9B9F2EEBA76AC88 /* Pods_FLSignInUpFlow_objc.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0463CE411EEFED1D00778628 /* FLSignInUpFlow-objc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0463CE591EEFED1D00778628 /* Build configuration list for PBXNativeTarget "FLSignInUpFlow-objc" */;
+			buildPhases = (
+				239A050130DB2DCA2E3821F5 /* [CP] Check Pods Manifest.lock */,
+				0463CE3E1EEFED1D00778628 /* Sources */,
+				0463CE3F1EEFED1D00778628 /* Frameworks */,
+				0463CE401EEFED1D00778628 /* Resources */,
+				98A7BBB4C1486B469025AFE7 /* [CP] Embed Pods Frameworks */,
+				380B6638FA5928437D2F1875 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FLSignInUpFlow-objc";
+			productName = "FLSignInUpFlow-objc";
+			productReference = 0463CE421EEFED1D00778628 /* FLSignInUpFlow-objc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0463CE3A1EEFED1D00778628 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Florian Lecluse";
+				TargetAttributes = {
+					0463CE411EEFED1D00778628 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Y8Z2PQ8VKD;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0463CE3D1EEFED1D00778628 /* Build configuration list for PBXProject "FLSignInUpFlow-objc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0463CE391EEFED1D00778628;
+			productRefGroup = 0463CE431EEFED1D00778628 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0463CE411EEFED1D00778628 /* FLSignInUpFlow-objc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0463CE401EEFED1D00778628 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0463CE551EEFED1D00778628 /* LaunchScreen.storyboard in Resources */,
+				0463CE521EEFED1D00778628 /* Assets.xcassets in Resources */,
+				0463CE501EEFED1D00778628 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		239A050130DB2DCA2E3821F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		380B6638FA5928437D2F1875 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FLSignInUpFlow-objc/Pods-FLSignInUpFlow-objc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98A7BBB4C1486B469025AFE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FLSignInUpFlow-objc/Pods-FLSignInUpFlow-objc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0463CE3E1EEFED1D00778628 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0463CE6C1EEFF84B00778628 /* FLLoginViewController.m in Sources */,
+				0463CE811EF0248400778628 /* FLSignInUpStandardCell.m in Sources */,
+				0463CE691EEFF2B100778628 /* FLTableViewController.m in Sources */,
+				0463CE7E1EF0245600778628 /* FLSignInUpAbstractCell.m in Sources */,
+				0463CE4A1EEFED1D00778628 /* AppDelegate.m in Sources */,
+				0463CE781EEFF9E400778628 /* FLSignInUpViewController.m in Sources */,
+				0463CE8A1EF024BF00778628 /* FLSignInUpViewModel.m in Sources */,
+				0463CE8D1EF024CE00778628 /* FLSignInUpViewItem.m in Sources */,
+				0463CE471EEFED1D00778628 /* main.m in Sources */,
+				0463CE901EF024EA00778628 /* FLSignInUpAccessoryView.m in Sources */,
+				0463CE631EEFEF4300778628 /* UIViewController+Helper.m in Sources */,
+				0463CE721EEFF8FC00778628 /* Constants.m in Sources */,
+				0463CE661EEFEF5900778628 /* NSString+Helper.m in Sources */,
+				0463CE871EF024A700778628 /* FLSignInUpButtonCell.m in Sources */,
+				0463CE841EF0249700778628 /* FLSignInUpSocialCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0463CE4E1EEFED1D00778628 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0463CE4F1EEFED1D00778628 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0463CE531EEFED1D00778628 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0463CE541EEFED1D00778628 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0463CE571EEFED1D00778628 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0463CE581EEFED1D00778628 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0463CE5A1EEFED1D00778628 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 573555A25B262ACB8905F058 /* Pods-FLSignInUpFlow-objc.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y8Z2PQ8VKD;
+				INFOPLIST_FILE = "FLSignInUpFlow-objc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "florianlecluse.FLSignInUpFlow-objc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0463CE5B1EEFED1D00778628 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74050B698C1F9B5CD31D5657 /* Pods-FLSignInUpFlow-objc.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y8Z2PQ8VKD;
+				INFOPLIST_FILE = "FLSignInUpFlow-objc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "florianlecluse.FLSignInUpFlow-objc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0463CE3D1EEFED1D00778628 /* Build configuration list for PBXProject "FLSignInUpFlow-objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0463CE571EEFED1D00778628 /* Debug */,
+				0463CE581EEFED1D00778628 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0463CE591EEFED1D00778628 /* Build configuration list for PBXNativeTarget "FLSignInUpFlow-objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0463CE5A1EEFED1D00778628 /* Debug */,
+				0463CE5B1EEFED1D00778628 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0463CE3A1EEFED1D00778628 /* Project object */;
+}
